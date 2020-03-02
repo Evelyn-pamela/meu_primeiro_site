@@ -1,0 +1,37 @@
+body {
+      font-family: arial;
+      margin: 0;
+
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top:30px;
+}
+
+img, ul, a, h1{
+    display: inline-block;
+}
+
+li{
+    width:120px;
+    text-align:center;
+    font-size: 30px;
+}
+
+#header{
+    border-bottom: 1px solid black;
+    
+}
+#banner{
+    text-align:center;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#banner p{
+    padding-top: 260px;
+}
